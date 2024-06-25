@@ -1,3 +1,33 @@
+.derecha {
+  display: flex;
+  text-align: center;
+
+  @include tablet {
+    align-items: center;
+  }
+
+  img {
+    width: 2rem;
+    cursor: pointer;
+
+    filter: invert(100%);
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    @include tablet {
+      margin-left: 2rem;
+      margin-top: 0rem;
+    }
+    .dark-mode-boton {
+      cursor: pointer;
+      align-items: center;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
 .barra {
   display: flex;
   flex-direction: column;
@@ -12,12 +42,18 @@
 .navegacion {
   visibility: hidden;
   opacity: 0;
-  transition: visibility 3s linear, opacity 0.5s linear;
+  transition: visibility 3s linear, opacity 0.5s linear, height .5s linear;
+  // .dark-mode-boton {
+  //   visibility: visible;
+  //   opacity: 1;
+  // }
+
+  align-items: center;
+  height: 0;
   @include tablet {
     visibility: visible;
     opacity: 1;
     display: flex;
-    align-items: center;
   }
   a {
     color: $blanco;
@@ -32,6 +68,7 @@
     }
     &:last-of-type {
       margin-right: 0;
+      // margin-left: 2rem;
     }
   }
 }
@@ -48,4 +85,5 @@
 .mostrar {
   visibility: visible;
   opacity: 1;
+  height: auto;
 }

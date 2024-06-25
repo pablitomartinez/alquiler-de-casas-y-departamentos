@@ -1,9 +1,16 @@
 // que el doc haya cargado, HTML CSS y JS
 
 document.addEventListener('DOMContentLoaded', function(){
-    evenListener()
+    evenListener();
+    darkMode();
 })
 
+function darkMode(){
+    const botonDarkMode = document.querySelector(".dark-mode-boton");
+    botonDarkMode.addEventListener('click', function(){
+        document.body.classList.toggle('dark-mode')
+    })
+}
 
 function evenListener(){
     const mobileMenu = document.querySelector('.mobile-menu');
