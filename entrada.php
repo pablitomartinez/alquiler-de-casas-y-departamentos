@@ -1,29 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bienes Raices</title>
-    <link rel="stylesheet" href="build/css/app.css" />
-  </head>
-  <body>
-    <!-- HEADER  -->
-    <header class="header">
-      <div class="contenedor contenido-header">
-        <div class="barra">
-          <a href="/">
-            <img src="build/img/logo.svg" alt="logo" />
-          </a>
-          <nav class="navegacion">
-            <a href="nosotros.html">Nosotros</a>
-            <a href="anuncions.html">Anuncios</a>
-            <a href="blog.html">Blog</a>
-            <a href="contacto.html">Contacto</a>
-          </nav>
-        </div>
-        <!--cierre de barra-->
-      </div>
-    </header>
+<?php
+  include './includes/templates/header.php';
+?>
     <!-- MAIN  -->
 
     <main class="contenedor seccion contenido-centrado">
