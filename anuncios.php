@@ -51,7 +51,7 @@
               <p>4</p>
             </li>
           </ul>
-          <a href="/anuncio.html" class="boton-amarillo-block">Ver propiedad</a>
+          <a href="/bienesraices/anuncio.php" class="boton-amarillo-block">Ver propiedad</a>
         </div>
       </div>
       <!-- CARD 2 -->
@@ -97,7 +97,7 @@
               <p>4</p>
             </li>
           </ul>
-          <a href="/anuncio.html" class="boton-amarillo-block">Ver propiedad</a>
+          <a href="/bienesraices/anuncio.php" class="boton-amarillo-block">Ver propiedad</a>
         </div>
       </div>
       <!-- CARD 3 -->
@@ -143,7 +143,7 @@
               <p>4</p>
             </li>
           </ul>
-          <a href="/anuncio.html" class="boton-amarillo-block">Ver propiedad</a>
+          <a href="/bienesraices/anuncio.php" class="boton-amarillo-block">Ver propiedad</a>
         </div>
       </div>
     </div>
@@ -193,7 +193,7 @@
               <p>4</p>
             </li>
           </ul>
-          <a href="/anuncio.html" class="boton-amarillo-block">Ver propiedad</a>
+          <a href="/bienesraices/anuncio.php" class="boton-amarillo-block">Ver propiedad</a>
         </div>
       </div>
       <!-- CARD 5 -->
@@ -234,7 +234,7 @@
               <p>4</p>
             </li>
           </ul>
-          <a href="/anuncio.html" class="boton-amarillo-block">Ver propiedad</a>
+          <a href="/bienesraices/anuncio.php" class="boton-amarillo-block">Ver propiedad</a>
         </div>
       </div>
       <!-- CARD 6 -->
@@ -285,7 +285,7 @@
               <p>4</p>
             </li>
           </ul>
-          <a href="/anuncio.html" class="boton-amarillo-block">Ver propiedad</a>
+          <a href="/bienesraices/anuncio.php" class="boton-amarillo-block">Ver propiedad</a>
         </div>
       </div>
     </div>

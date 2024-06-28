@@ -12,11 +12,11 @@
       <div class="contenedor contenido-header">
         <div class="barra">
           <a href="/bienesraices/index.php">
-            <img src="build/img/logo.svg" alt="logo" />
+            <img src="/bienesraices/build/img/logo.svg" alt="logo" />
           </a>
 
           <div class="mobile-menu">
-            <img src="build/img/barras.svg" alt="icono menu" />
+            <img src="/bienesraices/build/img/barras.svg" alt="icono menu" />
           </div>
           <!-- NAVBAR  -->
           <div class="derecha">
@@ -26,7 +26,7 @@
               <a href="blog.php">Blog</a>
               <a href="contacto.php">Contacto</a>
               <img
-                src="build/img/dark-mode.svg"
+                src="/bienesraices/build/img/dark-mode.svg"
                 alt="icono dark-mode"
                 class="dark-mode-boton"
               />
